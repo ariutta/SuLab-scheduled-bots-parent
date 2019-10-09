@@ -7,6 +7,10 @@ nix-build -E 'with import <nixpkgs> { }; callPackage ./default.nix {}'
 ./result/bin/abc --help
 ```
 
+## Node
+
+See the [node-packages README](https://github.com/ariutta/mynixpkgs/blob/master/development/node-packages/README.md).
+
 ## Python
 
 Generate Nix expressions for python packages by using pypi2nix, if possible. Otherwise, create manually.
